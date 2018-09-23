@@ -1,9 +1,8 @@
 # Static website generation skeleton for Brunch.io with Material Design Lite and BrowserSync
 
-For BrowserSync to work you need to have app.js at the end of the body in your html. https://github.com/ocombe/browser-sync-brunch
+This skeleton can be used with [Brunch](http://brunch.io) to generate a static website based on Material Design Lite look.
 
-This is a HTML5 application, built with [Brunch](http://brunch.io).
-
+Usage:
 brunch new --skeleton https://github.com/MartinGross/brunch-mdl-static
 
 ## Getting started
@@ -19,7 +18,12 @@ brunch new --skeleton https://github.com/MartinGross/brunch-mdl-static
     * Place static files you want to be copied from `app/assets/` to `public/`.
     * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
 
+## Troubleshooting
+
+For BrowserSync to work you need to have app.js at the end of the body in your html. See https://browsersync.io/ for more information.
+
 ## Based on
+* https://github.com/bmatcuk/html-brunch-static
 * https://github.com/ocombe/browser-sync-brunch
 * http://handlebarsjs.com/
 
